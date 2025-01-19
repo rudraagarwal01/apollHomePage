@@ -1,1 +1,199 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    background: #f5f5f5;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+.logo {
+    color: #005eff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.menu li {
+    list-style: none;
+    font-size: 18px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+}
+
+.menu li .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Main content */
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 40px;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Mentor card */
+.mentor-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+}
+
+.mentor-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.mentor-card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.mentor-card .age {
+    font-size: 16px;
+    color: #999;
+}
+
+.mentor-card .title {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.mentor-card .description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tag {
+    background: #ddd;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Action buttons */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.reject, .message {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.reject {
+    background: #ffebe8;
+    color: #e74c3c;
+}
+
+.message {
+    background: #007bff;
+    color: #fff;
+}
+
+/* Mentor details */
+.mentor-details {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.mentor-details .profile-pic {
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.mentor-details h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+}
+
+.mentor-details .title {
+    text-align: center;
+    color: #28a745;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.specialties {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.badge {
+    background: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
 
