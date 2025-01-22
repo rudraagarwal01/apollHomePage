@@ -283,18 +283,11 @@ body {
     margin-top: 10px;
 }
 
-.about .badge {
-    background: linear-gradient(to right, #3b82f6, #6610f2);
-    color: #fff;
-    padding: 2px 3px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-right: 10px; 
-}
-
 .about h3 {
     font-size: 18px;
     font-weight: 700;
+    border-left: 3px solid #3b82f6; 
+    padding-left: 7px;
     margin-bottom: 0;
     color: #333;
 }
